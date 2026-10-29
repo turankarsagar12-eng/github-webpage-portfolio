@@ -1,0 +1,204 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagar Turankar | Portfolio</title>
+
+    <style>
+        /* Basic Styling */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fc;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        header {
+            background-color: #1e293b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        /* Main Section */
+        .hero {
+            background-color: #dbeafe;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            color: #1e40af;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background-color: #1d4ed8;
+        }
+
+        /* Content Sections */
+        section {
+            padding: 35px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #1e40af;
+        }
+
+        /* Skills */
+        .skills span {
+            display: inline-block;
+            background-color: #dbeafe;
+            padding: 10px 18px;
+            margin: 6px;
+            border-radius: 5px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 28px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 6px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h2>Sagar Turankar</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <div class="hero" id="home">
+        <h1>Hello, I'm Sagar Turankar</h1>
+        <p>Aspiring DevOps and Cloud Engineer</p>
+
+        <p>
+            I am learning AWS, Linux, Docker, Git,
+            Jenkins, and CI/CD automation.
+        </p>
+
+        <a class="button"
+           href="https://github.com/turankarsagar12-eng"
+           target="_blank"
+           rel="noopener noreferrer">
+            Visit My GitHub
+        </a>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+            I have completed my B.Tech in Electrical Engineering.
+            I am learning DevOps and cloud computing and building
+            practical projects to improve my technical skills.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>Linux</span>
+            <span>AWS</span>
+            <span>Docker</span>
+            <span>Jenkins</span>
+            <span>Terraform</span>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <h3>1. GitHub Actions CI/CD Pipeline</h3>
+        <p>Automated testing, Docker image building, and deployment.</p>
+
+        <h3>2. Jenkins CI/CD Pipeline</h3>
+        <p>Automated the build and deployment process using Jenkins.</p>
+
+        <h3>3. Docker Web Server</h3>
+        <p>Hosted a static website using Docker and NGINX on AWS EC2.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <p>Visit my GitHub profile to explore my projects.</p>
+
+        <a class="button"
+           href="https://github.com/turankarsagar12-eng"
+           target="_blank"
+           rel="noopener noreferrer">
+            Connect With Me
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Sagar Turankar | My Portfolio</p>
+    </footer>
+
+</body>
+</html>
+
+
